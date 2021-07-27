@@ -1,0 +1,1096 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7909549436979870443
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4900957716039829006}
+  - component: {fileID: 4909649364715174488}
+  m_Layer: 0
+  m_Name: AssetsManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4900957716039829006
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7909549436979870443}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4909649364715174488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7909549436979870443}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c88e7e790c6a64324aeac2b298d276a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _presets:
+  - _myFaceSprite: {fileID: 21300000, guid: 17be3c194ecd348af8896aa06f4ae9bf, type: 3}
+    _myBackgroundColor: {r: 0.84705883, g: 0.7490196, b: 0.9843137, a: 0}
+    _emojiSprite: {fileID: 21300000, guid: 553cf6061bee444cfa6036cf640836a7, type: 3}
+    _backgroundColor: {r: 0.99215686, g: 0.44705883, b: 0.5019608, a: 0}
+    _senderName: SARA
+    _levelDescription: BIG BROTHER IS WATHCING
+    _presets:
+    - _message: "You\u2019re home today"
+      _answer: ARE YOU <color=#7600DF><u>SPYING</color></u> ON ME?
+      _emojiSequence: 76000000
+      _forcedEmojies: 2700000065000000
+      _maxEmojiSize: 3
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 0}
+    - _message: "Ahahaha, sorry, forgot my question mark \u201D?\u201D"
+      _answer: 
+      _emojiSequence: 
+      _forcedEmojies: 
+      _maxEmojiSize: 0
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 0}
+    _isQuiz: 0
+  - _myFaceSprite: {fileID: 21300000, guid: 74469e9293afe4bc590f9f213af74065, type: 3}
+    _myBackgroundColor: {r: 0.84705883, g: 0.7490196, b: 0.9843137, a: 0}
+    _emojiSprite: {fileID: 21300000, guid: edb58d9d61e3241e08d1c1b45a03598d, type: 3}
+    _backgroundColor: {r: 0.5254902, g: 0.8039216, b: 1, a: 0}
+    _senderName: MOM
+    _levelDescription: HOUSEHOLD CHORES
+    _presets:
+    - _message: "Don\u2019t forget to water the vegatable patch."
+      _answer: BUT IT'S <color=#7600DF><u>RAINING </color></u>OUT THERE!
+      _emojiSequence: 70000000
+      _forcedEmojies: 
+      _maxEmojiSize: 6
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 0}
+    - _message: "There\u2019s an umbrella in the wardrobe."
+      _answer: 
+      _emojiSequence: 
+      _forcedEmojies: 
+      _maxEmojiSize: 0
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 0}
+    _isQuiz: 0
+  - _myFaceSprite: {fileID: 21300000, guid: 5c0ea92e3e39d4dc08207bccfd59daa6, type: 3}
+    _myBackgroundColor: {r: 0.84705883, g: 0.7490196, b: 0.9843137, a: 0}
+    _emojiSprite: {fileID: 21300000, guid: 9f767bb6ab1ee4797aee41ee042ea495, type: 3}
+    _backgroundColor: {r: 0.52156866, g: 1, b: 0.47058824, a: 0}
+    _senderName: DAD
+    _levelDescription: AS YOU ASKED
+    _presets:
+    - _message: 
+      _answer: DAD, CAN I HAVE A <color=#7600DF><u>LOOK</color></u> AT YOUR <color=#7600DF><u>COMPUTER</color></u>?
+      _emojiSequence: 6900000072000000
+      _forcedEmojies: 
+      _maxEmojiSize: 6
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 0}
+    - _message: "Of course. Just don\u2019t turn it on."
+      _answer: 
+      _emojiSequence: 
+      _forcedEmojies: 
+      _maxEmojiSize: 0
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 0}
+    _isQuiz: 0
+  - _myFaceSprite: {fileID: 21300000, guid: d3ab2509ff1b947178d077c1e4c5a199, type: 3}
+    _myBackgroundColor: {r: 0.84705883, g: 0.7490196, b: 0.9843137, a: 0}
+    _emojiSprite: {fileID: 21300000, guid: 8c22d0c2d354e416dba2d179b55b38a8, type: 3}
+    _backgroundColor: {r: 0.91764706, g: 0.43137255, b: 0.9843137, a: 0}
+    _senderName: MARC
+    _levelDescription: OPEN VACANCY
+    _presets:
+    - _message: "I heard you\u2019ve set up a firm! Can I work for you?"
+      _answer: SURE! YOU'VE GOT TO <color=#7600DF><u>KNOW PROGRAMMING</color></u>
+        AND SPEAK <color=#7600DF><u>JAPANESE</color></u>
+      _emojiSequence: 740000006f000000
+      _forcedEmojies: 
+      _maxEmojiSize: 6
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 0}
+    - _message: "Damn, you\u2019re good at saying \u2018No\u2019 in a polite way!"
+      _answer: 
+      _emojiSequence: 
+      _forcedEmojies: 
+      _maxEmojiSize: 0
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 0}
+    _isQuiz: 0
+  - _myFaceSprite: {fileID: 21300000, guid: 553cf6061bee444cfa6036cf640836a7, type: 3}
+    _myBackgroundColor: {r: 0.84705883, g: 0.7490196, b: 0.9843137, a: 0}
+    _emojiSprite: {fileID: 21300000, guid: 8e0ef4c9460ff4e1dba39d6785073438, type: 3}
+    _backgroundColor: {r: 0.50980395, g: 0.6745098, b: 0.9529412, a: 0}
+    _senderName: FLASH
+    _levelDescription: A TALE ABOUT...
+    _presets:
+    - _message: My princess, can I come over tonight?
+      _answer: NO. THE <color=#7600DF><u>DRAGON</color></u> IS IN THE <color=#7600DF><u>CASTLE</color></u>!
+      _emojiSequence: 7100000067000000
+      _forcedEmojies: 
+      _maxEmojiSize: 6
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 0}
+    - _message: Eh?...
+      _answer: MY <color=#7600DF><u>PARENTS </color></u>ARE <color=#7600DF><u>HOME
+        </color></u>TONIGHT, DUMMY!
+      _emojiSequence: 6d00000066000000
+      _forcedEmojies: 
+      _maxEmojiSize: 6
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 0}
+    _isQuiz: 0
+  - _myFaceSprite: {fileID: 0}
+    _myBackgroundColor: {r: 0.84705883, g: 0.7490196, b: 0.9843137, a: 0}
+    _emojiSprite: {fileID: 21300000, guid: 6d924dd486216491b9dcc7970376caaa, type: 3}
+    _backgroundColor: {r: 1, g: 0.80784315, b: 0, a: 0}
+    _senderName: FILMS QUIZ
+    _levelDescription: DESCRIBE THE MOVIE WITH EMOJI
+    _presets:
+    - _message: 
+      _answer: INDIANA JONES
+      _emojiSequence: fe0000000101000002010000
+      _forcedEmojies: 
+      _maxEmojiSize: 6
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 21300000, guid: 76b40aba0ea46494389e61ea571ff124, type: 3}
+    - _message: 
+      _answer: HARRY POTTER
+      _emojiSequence: 14010000040000004100000067000000
+      _forcedEmojies: 
+      _maxEmojiSize: 6
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 21300000, guid: fc5167ec52e064d05a31b6cec18fe40d, type: 3}
+    - _message: 
+      _answer: TITANIC
+      _emojiSequence: f4000000f5000000f6000000
+      _forcedEmojies: 
+      _maxEmojiSize: 6
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 21300000, guid: 659618d8756d24dd2868c51043a1d2bf, type: 3}
+    _isQuiz: 1
+  - _myFaceSprite: {fileID: 21300000, guid: 5c0ea92e3e39d4dc08207bccfd59daa6, type: 3}
+    _myBackgroundColor: {r: 0.84705883, g: 0.7490196, b: 0.9843137, a: 0}
+    _emojiSprite: {fileID: 21300000, guid: 74469e9293afe4bc590f9f213af74065, type: 3}
+    _backgroundColor: {r: 0, g: 0.7372549, b: 1, a: 0}
+    _senderName: JAMIE
+    _levelDescription: UNSTOPPABLE
+    _presets:
+    - _message: Do you know what a turtle's greatness weakness is?
+      _answer: UH... THEIR <color=#7600DF><u>SLOWNESS</color></u> ?
+      _emojiSequence: 7f000000
+      _forcedEmojies: 
+      _maxEmojiSize: 6
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 0}
+    - _message: NO. They can't roll over when they get stuck on their back.
+      _answer: SO IF YOU <color=#7600DF><u>TAPE </color></u>THE <color=#7600DF><u>TURTLES
+        </color></u>TOGETHER THEY'D BE UNSTOPPABLE?
+      _emojiSequence: 800000007e000000
+      _forcedEmojies: 
+      _maxEmojiSize: 8
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 0}
+    - _message: AHAHAHHAHA, OMG!
+      _answer: 
+      _emojiSequence: 
+      _forcedEmojies: 
+      _maxEmojiSize: 0
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 0}
+    _isQuiz: 0
+  - _myFaceSprite: {fileID: 21300000, guid: c00bda5fbc7e44763bc3169788fee1e3, type: 3}
+    _myBackgroundColor: {r: 0.84705883, g: 0.7490196, b: 0.9843137, a: 0}
+    _emojiSprite: {fileID: 21300000, guid: 7807c89bcf0f1412c8cebf9fe5e2116c, type: 3}
+    _backgroundColor: {r: 1, g: 0.54509807, b: 0.7254902, a: 0}
+    _senderName: RILEY
+    _levelDescription: PERSONAL EXPENSES
+    _presets:
+    - _message: Hey Mom, can I borrow 50$ ?
+      _answer: DO YOU THINK THAT <color=#7600DF><u>MONEY </color></u>GROWS ON <color=#7600DF><u>TREES
+        </color></u>?
+      _emojiSequence: 0500000006000000
+      _forcedEmojies: 
+      _maxEmojiSize: 6
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 0}
+    - _message: Well paper is made of trees, and money is made of paper (^_^)
+      _answer: ACTUALLY <color=#7600DF><u>MONEY </color></u>IS <color=#7600DF><u>MADE
+        OUT </color></u>OF <color=#7600DF><u>FIBERS</color></u>
+      _emojiSequence: 050000000700000008000000
+      _forcedEmojies: 
+      _maxEmojiSize: 6
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 0}
+    - _message: -_-
+      _answer: TAKE A CHILL  <color=#7600DF><u>PILL</color></u> , <color=#7600DF><u>KIDDO
+        </color></u>
+      _emojiSequence: 640000007d000000
+      _forcedEmojies: 7c0000007b000000
+      _maxEmojiSize: 4
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 0}
+    _isQuiz: 0
+  - _myFaceSprite: {fileID: 21300000, guid: 37ea8d0eed94a4bb7ab0892f07f8a3b5, type: 3}
+    _myBackgroundColor: {r: 0.84705883, g: 0.7490196, b: 0.9843137, a: 0}
+    _emojiSprite: {fileID: 21300000, guid: 2fe35abbc1dbc4c72b39b353ceb40edd, type: 3}
+    _backgroundColor: {r: 0.7019608, g: 0.48235294, b: 1, a: 0}
+    _senderName: LISA
+    _levelDescription: EATING CEREAL
+    _presets:
+    - _message: What are you doing?
+      _answer: LAYING IN <color=#7600DF><u>BED </color></u>
+      _emojiSequence: 0b000000
+      _forcedEmojies: 
+      _maxEmojiSize: 3
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 0}
+    - _message: Mmm... Just laying in bed? Nothing else?
+      _answer: I'M <color=#7600DF><u>EATING </color></u>MY <color=#7600DF><u>CEREAL
+        </color></u>
+      _emojiSequence: 0c0000000d000000
+      _forcedEmojies: 
+      _maxEmojiSize: 4
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 0}
+    - _message: Haha nice. What would you do if I was in bed next to you?
+      _answer: <color=#7600DF><u>EAT </color></u>MY <color=#7600DF><u>CEREAL </color></u>
+      _emojiSequence: 0c0000000d000000
+      _forcedEmojies: 
+      _maxEmojiSize: 6
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 0}
+    - _message: Lol, I mean if the cereal wasn't there
+      _answer: THEN I'D GET OUT OF <color=#7600DF><u>BED </color></u>AND <color=#7600DF><u>GO
+        </color></u>GET <color=#7600DF><u>CEREAL</color></u>
+      _emojiSequence: 0e0000000f0000000d000000
+      _forcedEmojies: 
+      _maxEmojiSize: 6
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 0}
+    _isQuiz: 0
+  - _myFaceSprite: {fileID: 21300000, guid: cfac75fff8da846e496b911723ab6525, type: 3}
+    _myBackgroundColor: {r: 0.84705883, g: 0.7490196, b: 0.9843137, a: 0}
+    _emojiSprite: {fileID: 21300000, guid: c7d58a5221c5e42e49bf39dc4d8b79a0, type: 3}
+    _backgroundColor: {r: 1, g: 0.5663433, b: 0.36470592, a: 0}
+    _senderName: RONALD
+    _levelDescription: GAS DATE
+    _presets:
+    - _message: Yo, did the date go well?
+      _answer: I HAD TO <color=#7600DF><u>BREAK </color></u> <color=#7600DF><u>WIND</color></u>
+        IN A RESTAURANT.
+      _emojiSequence: 1000000011000000
+      _forcedEmojies: 
+      _maxEmojiSize: 6
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 0}
+    - _message: And?
+      _answer: THE <color=#7600DF><u>MUSIC </color></u>WAS <color=#7600DF><u>LOUD
+        </color></u>, SO I GOT <color=#7600DF><u>RELIEVED </color></u>.
+      _emojiSequence: 120000001300000014000000
+      _forcedEmojies: 
+      _maxEmojiSize: 6
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 0}
+    - _message: AND?
+      _answer: THEN I <color=#7600DF><u>REALIZED </color></u>I WAS WEARING <color=#7600DF><u>HEADPHONES
+        </color></u>
+      _emojiSequence: 1500000016000000
+      _forcedEmojies: 
+      _maxEmojiSize: 6
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 0}
+    _isQuiz: 0
+  - _myFaceSprite: {fileID: 21300000, guid: edb58d9d61e3241e08d1c1b45a03598d, type: 3}
+    _myBackgroundColor: {r: 0.84705883, g: 0.7490196, b: 0.9843137, a: 0}
+    _emojiSprite: {fileID: 21300000, guid: d3ab2509ff1b947178d077c1e4c5a199, type: 3}
+    _backgroundColor: {r: 0.6650944, g: 0.8034239, b: 1, a: 0}
+    _senderName: RICK
+    _levelDescription: RESPONSIBILITY
+    _presets:
+    - _message: My wife suggested we should sort the waste
+      _answer: 'I''M SEPARATING <color=#7600DF><u>METAL </color></u>, <color=#7600DF><u>GLASS
+        </color></u>, <color=#7600DF><u>PAPER </color></u>AND <color=#7600DF><u>ORGANIC
+        WASTE </color></u>. '
+      _emojiSequence: 4400000045000000350000002c000000
+      _forcedEmojies: 3e0000000d010000
+      _maxEmojiSize: 6
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 0}
+    - _message: "I\u2019m totally up for it, I think we are going to need this planet
+        for a little longer. "
+      _answer: <color=#7600DF><u>AGREED</color></u>, OTHERWISE <color=#7600DF><u>EARTH
+        </color></u>IS GOING TO  <color=#7600DF><u>TURN INTO </color></u>A <color=#7600DF><u>TURD</color></u>.
+      _emojiSequence: 2f0000002a0000004100000040000000
+      _forcedEmojies: 
+      _maxEmojiSize: 8
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 0}
+    _isQuiz: 0
+  - _myFaceSprite: {fileID: 0}
+    _myBackgroundColor: {r: 0.84705883, g: 0.7490196, b: 0.9843137, a: 0}
+    _emojiSprite: {fileID: 21300000, guid: 6d924dd486216491b9dcc7970376caaa, type: 3}
+    _backgroundColor: {r: 1, g: 0.80784315, b: 0, a: 0}
+    _senderName: FILMS QUIZ
+    _levelDescription: DESCRIBE THE MOVIE WITH EMOJI
+    _presets:
+    - _message: 
+      _answer: MATRIX
+      _emojiSequence: 6200000013010000120100000b010000
+      _forcedEmojies: 
+      _maxEmojiSize: 8
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 21300000, guid: 381071d4b02db40819e7c18b1f7f6fdd, type: 3}
+    - _message: 
+      _answer: FAST AND FURIOUS
+      _emojiSequence: 00010000d80000001101000011000000
+      _forcedEmojies: 
+      _maxEmojiSize: 8
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 21300000, guid: cf205f71beb2b42a5b56d791eafc43d5, type: 3}
+    - _message: 
+      _answer: GHOSTBUTSTERS
+      _emojiSequence: 090100000b010000
+      _forcedEmojies: 
+      _maxEmojiSize: 6
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 21300000, guid: 09a8a8add7ba24aa3ad75bd700f95980, type: 3}
+    _isQuiz: 1
+  - _myFaceSprite: {fileID: 21300000, guid: c424c699107de4dba9c74c5013c40093, type: 3}
+    _myBackgroundColor: {r: 0.84705883, g: 0.7490196, b: 0.9843137, a: 0}
+    _emojiSprite: {fileID: 21300000, guid: addb2ef2fb0dc4758be54eda5c7f1abb, type: 3}
+    _backgroundColor: {r: 1, g: 0.9620409, b: 0.4198113, a: 0}
+    _senderName: RITA
+    _levelDescription: RED DEMON
+    _presets:
+    - _message: "I\u2019m so envy of you having a cat "
+      _answer: 'THIS <color=#7600DF><u>GINGER </u> <u>DEMON </u> <u>POOPED </color></u>IN
+        MY <color=#7600DF><u>SHOES </color></u>. '
+      _emojiSequence: 2d000000250000004000000039000000
+      _forcedEmojies: 
+      _maxEmojiSize: 6
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 0}
+    - _message: LOL
+      _answer: AND <color=#7600DF><u>SPILLED </color></u>THE <color=#7600DF><u>COFFEE
+        </color></u>ALL OVER MY <color=#7600DF><u>COAT </color></u>
+      _emojiSequence: 3c0000002300000022000000
+      _forcedEmojies: 
+      _maxEmojiSize: 6
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 0}
+    - _message: What did you do?
+      _answer: <color=#7600DF><u>DEPRIVED </color></u>HIM OF <color=#7600DF><u>TV
+        </color></u>
+      _emojiSequence: 2600000042000000
+      _forcedEmojies: 
+      _maxEmojiSize: 6
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 0}
+    _isQuiz: 0
+  - _myFaceSprite: {fileID: 21300000, guid: ae4f2a33fc6c04bf4927ca6e443da78f, type: 3}
+    _myBackgroundColor: {r: 0.84705883, g: 0.7490196, b: 0.9843137, a: 0}
+    _emojiSprite: {fileID: 21300000, guid: e2c5e801aef33413386ce290d3f52a97, type: 3}
+    _backgroundColor: {r: 1, g: 0.7783019, b: 0.8932984, a: 0}
+    _senderName: MR. DAVIS
+    _levelDescription: TANGLED CASE
+    _presets:
+    - _message: Detective, what evidence was found at the crime scene?
+      _answer: <color=#7600DF><u>FIRE-EXTINGUISHER</color></u>, <color=#7600DF><u>CORN
+        </color></u>, AND A <color=#7600DF><u>SANDWICH</color></u>
+      _emojiSequence: 2b000000290000003b000000
+      _forcedEmojies: 
+      _maxEmojiSize: 6
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 0}
+    - _message: 'Any tips on the suspect? '
+      _answer: 'WE DON''T KNOW <color=#7600DF><u>THE GUY</color></u>. HE HAD A <color=#7600DF><u>PROSTHETIC
+        ARM </color></u>, <color=#7600DF><u>RED SHOES </color></u>AND A <color=#7600DF><u>CAMERA
+        </color></u> . '
+      _emojiSequence: 3f000000380000003900000021000000
+      _forcedEmojies: 17000000860000002400000066000000
+      _maxEmojiSize: 8
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 0}
+    _isQuiz: 0
+  - _myFaceSprite: {fileID: 21300000, guid: b2943f63cab2248ff8a02ed6d7b5a6ae, type: 3}
+    _myBackgroundColor: {r: 0.84705883, g: 0.7490196, b: 0.9843137, a: 0}
+    _emojiSprite: {fileID: 21300000, guid: 2fe35abbc1dbc4c72b39b353ceb40edd, type: 3}
+    _backgroundColor: {r: 0.5058824, g: 0.8666667, b: 1, a: 0}
+    _senderName: JULIA
+    _levelDescription: SWEET-TOOTH
+    _presets:
+    - _message: 'Mr. President, did you want to see me? '
+      _answer: BRING SOME <color=#7600DF><u>MILK </color></u>, <color=#7600DF><u>COOKIE
+        </color></u>AND <color=#7600DF><u>A MUFFIN </color></u>INTO MY <color=#7600DF><u>BEDROOM</color></u>.
+      _emojiSequence: 3100000024000000320000000b000000
+      _forcedEmojies: 
+      _maxEmojiSize: 6
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 0}
+    - _message: "Mr. President, you\u2019ve been eating a lot of sugar lately "
+      _answer: <color=#7600DF><u>NO </color></u>, ONLY A <color=#7600DF><u>COUPLE
+        OF CAKES </color></u>AND A <color=#7600DF><u>PIE </color></u>
+      _emojiSequence: 33000000200000002000000036000000
+      _forcedEmojies: 0a01000007010000
+      _maxEmojiSize: 6
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 0}
+    _isQuiz: 0
+  - _myFaceSprite: {fileID: 21300000, guid: d05460dd2741449129af95c32d6d81bc, type: 3}
+    _myBackgroundColor: {r: 0.84705883, g: 0.7490196, b: 0.9843137, a: 0}
+    _emojiSprite: {fileID: 21300000, guid: 7c1f52c6e2bd048789266ad3905091c7, type: 3}
+    _backgroundColor: {r: 1, g: 0.62721896, b: 0.514151, a: 0}
+    _senderName: PAMELA
+    _levelDescription: PLAN B
+    _presets:
+    - _message: What are your plans for vacation? There are very few options during
+        the lockdown
+      _answer: I WANT TO HOP ON A <color=#7600DF><u>PLANE </color></u>TO SOMEPLACE
+        WITH A <color=#7600DF><u>BEACH </color></u>. MY <color=#7600DF><u>SWIMSUIT
+        </color></u>IS COVERED IN <color=#7600DF><u>DUST </color></u>
+      _emojiSequence: 370000001f0000003e00000028000000
+      _forcedEmojies: 
+      _maxEmojiSize: 6
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 0}
+    - _message: "Virus won\u2019t let you do it"
+      _answer: <color=#7600DF><u>%$!#%</u> <u>VIRUS</color></u>!
+      _emojiSequence: 3400000043000000
+      _forcedEmojies: 
+      _maxEmojiSize: 5
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 0}
+    - _message: "Yeah, we all are tired of being locked up. Anyways, what\u2019s
+        your plan? "
+      _answer: "I\u2019M GOING TO GO <color=#7600DF><u>SWIMMING  </color></u> AND
+        <color=#7600DF><u>DIVING  </color></u>IN MY <color=#7600DF><u>BATH </color></u>,
+        <color=#7600DF><u>LOL </color></u>"
+      _emojiSequence: 3d000000270000001e00000030000000
+      _forcedEmojies: 
+      _maxEmojiSize: 5
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 0}
+    _isQuiz: 0
+  - _myFaceSprite: {fileID: 21300000, guid: 931d4e337d8404bbab7a4126b186a736, type: 3}
+    _myBackgroundColor: {r: 0.84705883, g: 0.7490196, b: 0.9843137, a: 0}
+    _emojiSprite: {fileID: 21300000, guid: a8afb98696850415bb8913995a41c8c0, type: 3}
+    _backgroundColor: {r: 0.64705884, g: 0.3372549, b: 1, a: 0}
+    _senderName: ARMSTRONG
+    _levelDescription: TO INFINITY AND BEYOND
+    _presets:
+    - _message: 
+      _answer: <color=#7600DF><u>I'M </color></u> GOING TO <color=#7600DF><u>FLY
+        </color></u>TO THE <color=#7600DF><u>SUN </color></u>!
+      _emojiSequence: 4a0000004900000048000000
+      _forcedEmojies: 
+      _maxEmojiSize: 6
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 0}
+    - _message: "But you will burn on halfway there. It\u2019s crazy hot in there.  "
+      _answer: THEN I WILL <color=#7600DF><u>FLY </color></u>AT <color=#7600DF><u>NIGHT
+        </color></u>.
+      _emojiSequence: 4800000047000000
+      _forcedEmojies: 
+      _maxEmojiSize: 5
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 0}
+    _isQuiz: 0
+  - _myFaceSprite: {fileID: 0}
+    _myBackgroundColor: {r: 0.84705883, g: 0.7490196, b: 0.9843137, a: 0}
+    _emojiSprite: {fileID: 21300000, guid: 6d924dd486216491b9dcc7970376caaa, type: 3}
+    _backgroundColor: {r: 1, g: 0.80784315, b: 0, a: 0}
+    _senderName: FILMS QUIZ
+    _levelDescription: DESCRIBE THE MOVIE WITH EMOJI
+    _presets:
+    - _message: 
+      _answer: LORD OF THE RINGS
+      _emojiSequence: 8a000000870000008800000089000000
+      _forcedEmojies: 
+      _maxEmojiSize: 8
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 21300000, guid: 4c31f7974669f4c35a4502ab955ac052, type: 3}
+    - _message: 
+      _answer: IT
+      _emojiSequence: 1b0000004a00000018000000
+      _forcedEmojies: 
+      _maxEmojiSize: 8
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 21300000, guid: ff8fef0d4263c4e88ab27855a23b30a7, type: 3}
+    - _message: 
+      _answer: TWILIGHT
+      _emojiSequence: 5b000000580000002e00000006010000
+      _forcedEmojies: 
+      _maxEmojiSize: 8
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 21300000, guid: 3bf4d26d2890742d7ab568d05b7db313, type: 3}
+    _isQuiz: 1
+  - _myFaceSprite: {fileID: 21300000, guid: 5a349960d2622438db0d2cd5e4c73e43, type: 3}
+    _myBackgroundColor: {r: 0.84705883, g: 0.7490196, b: 0.9843137, a: 0}
+    _emojiSprite: {fileID: 21300000, guid: 58d00fae016144b0b9862d94725341f6, type: 3}
+    _backgroundColor: {r: 0.42352942, g: 0.20392157, b: 0.8784314, a: 0}
+    _senderName: CHARLIE
+    _levelDescription: TRAVEL PREPARATION
+    _presets:
+    - _message: 
+      _answer: '<color=#7600DF><u>CHARLIE </color></u>, PACK YOUR <color=#7600DF><u>BAG
+        </color></u>, OUR <color=#7600DF><u>FLIGHT </color></u>IS AT <color=#7600DF><u>3PM</color></u>. '
+      _emojiSequence: 52000000500000004b0000004c000000
+      _forcedEmojies: 
+      _maxEmojiSize: 7
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 0}
+    - _message: "I\u2019m ready, but I can\u2019t find my shorts. "
+      _answer: YOUR <color=#7600DF><u>SHORTS </color></u>ARE ON THE <color=#7600DF><u>COUCH
+        </color></u>. OH, AND <color=#7600DF><u>GRAB </color></u>A PURPLE <color=#7600DF><u>UMBRELLA
+        </color></u>
+      _emojiSequence: 4f0000004d0000004e00000051000000
+      _forcedEmojies: 
+      _maxEmojiSize: 8
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 0}
+    _isQuiz: 0
+  - _myFaceSprite: {fileID: 21300000, guid: 169516eb7354445a78ce39c8fbc108ab, type: 3}
+    _myBackgroundColor: {r: 0.84705883, g: 0.7490196, b: 0.9843137, a: 0}
+    _emojiSprite: {fileID: 21300000, guid: d05460dd2741449129af95c32d6d81bc, type: 3}
+    _backgroundColor: {r: 1, g: 0.5330188, b: 0.6893658, a: 0}
+    _senderName: BETSIE
+    _levelDescription: BAD HAIRCUT
+    _presets:
+    - _message: 
+      _answer: <color=#7600DF><u>LOOK </color></u>HOW THIS <color=#7600DF><u>%$!#%
+        </color></u>DID MY <color=#7600DF><u>HAIRCUT </color></u>.
+      _emojiSequence: 540000003400000055000000
+      _forcedEmojies: 
+      _maxEmojiSize: 6
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 0}
+    - _message: Haha what a  %$!#%
+      _answer: 'I''D RATHER GO <color=#7600DF><u>BALD </color></u>, I FEEL LIKE A
+        <color=#7600DF><u>CLOWN </color></u>WITH THIS <color=#7600DF><u>HAIRCUT </color></u>. '
+      _emojiSequence: 530000001b00000055000000
+      _forcedEmojies: 
+      _maxEmojiSize: 8
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 0}
+    _isQuiz: 0
+  - _myFaceSprite: {fileID: 21300000, guid: 8f64f730a09784b6f8e458eff6078324, type: 3}
+    _myBackgroundColor: {r: 0.84705883, g: 0.7490196, b: 0.9843137, a: 0}
+    _emojiSprite: {fileID: 21300000, guid: 79ec3157084264c2ebfd5a0df2123bca, type: 3}
+    _backgroundColor: {r: 0.9411765, g: 0.9843137, b: 0.7647059, a: 0}
+    _senderName: BOB
+    _levelDescription: SPECIFIC TASTES
+    _presets:
+    - _message: 
+      _answer: 'I <color=#7600DF><u>WONDER </color></u>WHAT <color=#7600DF><u>GARLIC
+        </u> <u>JUICE </color></u> <color=#7600DF><u>TASTES </color></u>LIKE?  '
+      _emojiSequence: 5c000000560000005700000059000000
+      _forcedEmojies: 
+      _maxEmojiSize: 8
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 0}
+    - _message: "I don\u2019t even know. "
+      _answer: I <color=#7600DF><u>THINK </u> <u>VAMPIRES </color></u>WOULD <color=#7600DF><u>LOVE
+        </color></u>IT.
+      _emojiSequence: 5a0000005b00000058000000
+      _forcedEmojies: 
+      _maxEmojiSize: 7
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 0}
+    _isQuiz: 0
+  - _myFaceSprite: {fileID: 21300000, guid: faa51bc573db049d887d0ac92cc20741, type: 3}
+    _myBackgroundColor: {r: 0.84705883, g: 0.7490196, b: 0.9843137, a: 0}
+    _emojiSprite: {fileID: 21300000, guid: e2c5e801aef33413386ce290d3f52a97, type: 3}
+    _backgroundColor: {r: 0.8690327, g: 0.7688679, b: 1, a: 0}
+    _senderName: MY DUDE
+    _levelDescription: AIRPLANE MODE
+    _presets:
+    - _message: Dude, why is there a crack on my phone?
+      _answer: YOU <color=#7600DF><u>THROW</u></color> YOUR <color=#7600DF><u>PHONE</u></color>
+        LAST <color=#7600DF><u>NIGHT</u></color>
+      _emojiSequence: c0000000a0000000cf000000
+      _forcedEmojies: 04000000080000000d000000
+      _maxEmojiSize: 6
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 0}
+    - _message: Why would I do that?
+      _answer: YOU TURN ON <color=#7600DF><u>AIRPLANE MODE</u></color>, <color=#7600DF><u>THREW</u></color>
+        IT AND <color=#7600DF><u>YELLED</u></color> "TRANSFORM!"
+      _emojiSequence: 37000000bf00000034000000
+      _forcedEmojies: 
+      _maxEmojiSize: 7
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 0}
+    _isQuiz: 0
+  - _myFaceSprite: {fileID: 21300000, guid: 169516eb7354445a78ce39c8fbc108ab, type: 3}
+    _myBackgroundColor: {r: 0.84705883, g: 0.7490196, b: 0.9843137, a: 0}
+    _emojiSprite: {fileID: 21300000, guid: c7d58a5221c5e42e49bf39dc4d8b79a0, type: 3}
+    _backgroundColor: {r: 0.990566, g: 0.70554465, b: 0.70554465, a: 0}
+    _senderName: DAD
+    _levelDescription: SUPERNATURAL
+    _presets:
+    - _message: 
+      _answer: DO <color=#7600DF><u>GHOSTS</u></color>, <color=#7600DF><u>ZOMBIES</u></color>,
+        <color=#7600DF><u>VAMPIRES</u></color> AND <color=#7600DF><u>ALIENS</u></color>
+        EXIST?
+      _emojiSequence: 09010000150100005b00000061000000
+      _forcedEmojies: 
+      _maxEmojiSize: 8
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 0}
+    - _message: We've already discussed with you that they don't exist
+      _answer: <color=#7600DF><u>MAYBE</u></color> THEY <color=#7600DF><u>HIDE</u></color>
+        WELL?
+      _emojiSequence: 1a01000016010000
+      _forcedEmojies: 
+      _maxEmojiSize: 7
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 0}
+    - _message: Wanna know for sure? Try to find them!
+      _answer: <color=#7600DF><u>NOPE</u></color>, I'D RATHER <color=#7600DF><u>HIDE</u></color>
+        <color=#7600DF><u>UNDER</u></color> MY <color=#7600DF><u>BED</u></color>
+      _emojiSequence: 3300000017010000180100000e000000
+      _forcedEmojies: 
+      _maxEmojiSize: 8
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 0}
+    _isQuiz: 0
+  - _myFaceSprite: {fileID: 0}
+    _myBackgroundColor: {r: 0.84705883, g: 0.7490196, b: 0.9843137, a: 0}
+    _emojiSprite: {fileID: 21300000, guid: 6d924dd486216491b9dcc7970376caaa, type: 3}
+    _backgroundColor: {r: 1, g: 0.8078432, b: 0, a: 0}
+    _senderName: FILMS QUIZ
+    _levelDescription: DESCRIBE THE MOVIE WITH EMOJI
+    _presets:
+    - _message: 
+      _answer: MULAN
+      _emojiSequence: 840000008500000086000000
+      _forcedEmojies: 
+      _maxEmojiSize: 8
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 21300000, guid: d5d037f084ac14768b5f717364e55825, type: 3}
+    - _message: 
+      _answer: FROZEN
+      _emojiSequence: 190000001c0000001a000000
+      _forcedEmojies: 
+      _maxEmojiSize: 8
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 21300000, guid: 2fbaafcfc5e1243ffa575c5e0579bfef, type: 3}
+    - _message: 
+      _answer: BEAUTY AND THE BEAST
+      _emojiSequence: 1001000058000000d100000007010000
+      _forcedEmojies: 
+      _maxEmojiSize: 8
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 21300000, guid: 619aa08a442814e43bdd9e4b6af0c473, type: 3}
+    _isQuiz: 1
+  - _myFaceSprite: {fileID: 21300000, guid: d3ab2509ff1b947178d077c1e4c5a199, type: 3}
+    _myBackgroundColor: {r: 0.84705883, g: 0.7490196, b: 0.9843137, a: 0}
+    _emojiSprite: {fileID: 21300000, guid: 2243f9deafa4f428c9535e934f06ed90, type: 3}
+    _backgroundColor: {r: 0.6084906, g: 0.9069548, b: 1, a: 0}
+    _senderName: MICK
+    _levelDescription: COOL TEACHER
+    _presets:
+    - _message: Hi! Watcha doin?
+      _answer: EATING <color=#7600DF><u>PEANUTS</u></color>, <color=#7600DF><u>LISTENING
+        TO MUSIC</u></color> AND <color=#7600DF><u>WAITING</u></color> FOR THIS LESSON
+        TO END
+      _emojiSequence: 6e0000001600000078000000
+      _forcedEmojies: 
+      _maxEmojiSize: 7
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 0}
+    - _message: If I was the teacher, I would've kicked you outa class!
+      _answer: <color=#7600DF><u>NOT</u></color> <color=#7600DF><u>TODAY</u></color>
+      _emojiSequence: 3300000068000000
+      _forcedEmojies: 
+      _maxEmojiSize: 4
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 0}
+    - _message: Why?
+      _answer: I'M THE <color=#7600DF><u>TEACHER</u></color>
+      _emojiSequence: 73000000
+      _forcedEmojies: 
+      _maxEmojiSize: 3
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 0}
+    _isQuiz: 0
+  - _myFaceSprite: {fileID: 21300000, guid: addb2ef2fb0dc4758be54eda5c7f1abb, type: 3}
+    _myBackgroundColor: {r: 0.84705883, g: 0.7490196, b: 0.9843137, a: 0}
+    _emojiSprite: {fileID: 21300000, guid: cfac75fff8da846e496b911723ab6525, type: 3}
+    _backgroundColor: {r: 0.9716981, g: 0.80782217, b: 0.637104, a: 0}
+    _senderName: TYLER
+    _levelDescription: YOU'RE ON TV!
+    _presets:
+    - _message: 
+      _answer: <color=#7600DF><u>YOU'RE</u></color> <color=#7600DF><u>ON</u></color>
+        <color=#7600DF><u>TV!</u></color>
+      _emojiSequence: 8b000000d700000042000000
+      _forcedEmojies: 
+      _maxEmojiSize: 6
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 0}
+    - _message: WHAT?!?!?!?!
+      _answer: <color=#7600DF><u>TURN ON</u></color> <color=#7600DF><u>THE TV</u></color>
+        <color=#7600DF><u>FAST!</u></color>
+      _emojiSequence: df0000004200000011000000
+      _forcedEmojies: 
+      _maxEmojiSize: 6
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 0}
+    - _message: WHICH CHANNEL?!
+      _answer: <color=#7600DF><u>ANIMAL</u></color> <color=#7600DF><u>PLANET</u></color>
+      _emojiSequence: c9000000ca000000d50000002a000000
+      _forcedEmojies: e7000000c5000000e1000000ed000000
+      _maxEmojiSize: 8
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 0}
+    - _message: rrrrrr...
+      _answer: 
+      _emojiSequence: 
+      _forcedEmojies: 
+      _maxEmojiSize: 0
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 0}
+    _isQuiz: 0
+  - _myFaceSprite: {fileID: 21300000, guid: 427d5521f73fe4c0caa1a5192b0c5b85, type: 3}
+    _myBackgroundColor: {r: 0.84705883, g: 0.7490196, b: 0.9843137, a: 0}
+    _emojiSprite: {fileID: 21300000, guid: 77b649d4a267e40c7991fc61ccb82d3f, type: 3}
+    _backgroundColor: {r: 1, g: 1, b: 1, a: 0}
+    _senderName: JESSICA
+    _levelDescription: MIDNIGHT POEM
+    _presets:
+    - _message: How come you never write poems for me?
+      _answer: WHEN <color=#7600DF><u>THE SKY</u></color> FILLS WITH QUIANT <color=#7600DF><u>STAR-FILLED
+        EDDIES</u></color>,
+      _emojiSequence: 7a0000006a000000
+      _forcedEmojies: 
+      _maxEmojiSize: 4
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 0}
+    - _message: 
+      _answer: AND <color=#7600DF><u>THE MOON'S FACE</u></color> PEERS OVER <color=#7600DF><u>THE
+        RIDGE</u></color>,
+      _emojiSequence: 6b00000079000000
+      _forcedEmojies: 
+      _maxEmojiSize: 6
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 0}
+    - _message: 
+      _answer: WHEN <color=#7600DF><u>YOU THINK</u></color> I'M <color=#7600DF><u>SLEEPING</u></color>
+        ALREADY,
+      _emojiSequence: 1a0100000b000000
+      _forcedEmojies: 
+      _maxEmojiSize: 6
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 0}
+    - _message: 
+      _answer: COMES <color=#7600DF><u>THE TIME</u></color> FOR YOUR TRIP TO <color=#7600DF><u>EAT.</u></color>
+      _emojiSequence: 750000006c000000
+      _forcedEmojies: 
+      _maxEmojiSize: 6
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 0}
+    - _message: I HATE YOU!
+      _answer: 
+      _emojiSequence: 
+      _forcedEmojies: 
+      _maxEmojiSize: 0
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 0}
+    _isQuiz: 0
+  - _myFaceSprite: {fileID: 21300000, guid: 7c1f52c6e2bd048789266ad3905091c7, type: 3}
+    _myBackgroundColor: {r: 0.84705883, g: 0.7490196, b: 0.9843137, a: 0}
+    _emojiSprite: {fileID: 21300000, guid: b2943f63cab2248ff8a02ed6d7b5a6ae, type: 3}
+    _backgroundColor: {r: 0.75, g: 0.89487493, b: 1, a: 0}
+    _senderName: JOHN
+    _levelDescription: PAPER ALTERNATIVES
+    _presets:
+    - _message: YO, do you think there are alternatives for toilet paper?
+      _answer: YEP! <color=#7600DF><u>BAD BOOKS</u></color>, <color=#7600DF><u>SMALL
+        MONEY</u></color>, <color=#7600DF><u>PLANTS</u></color>, HA-HA!
+      _emojiSequence: 9d0000009b000000d2000000
+      _forcedEmojies: 
+      _maxEmojiSize: 8
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 0}
+    - _message: That's ridiculous. But when all the toilet paper disappeared in stores,
+        it was no laughing matter
+      _answer: 
+      _emojiSequence: 
+      _forcedEmojies: 
+      _maxEmojiSize: 0
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 0}
+    _isQuiz: 0
+  - _myFaceSprite: {fileID: 21300000, guid: addb2ef2fb0dc4758be54eda5c7f1abb, type: 3}
+    _myBackgroundColor: {r: 0.84705883, g: 0.7490196, b: 0.9843137, a: 0}
+    _emojiSprite: {fileID: 21300000, guid: faa51bc573db049d887d0ac92cc20741, type: 3}
+    _backgroundColor: {r: 1, g: 0.9306701, b: 0.740566, a: 0}
+    _senderName: IGOR
+    _levelDescription: STRICT DIET
+    _presets:
+    - _message: 
+      _answer: <color=#7600DF><u>DAMN</u></color>, I'M SO <color=#7600DF><u>HUNGRY</u></color>
+      _emojiSequence: 25000000e9000000
+      _forcedEmojies: 
+      _maxEmojiSize: 6
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 0}
+    - _message: Eat me, darling
+      _answer: I <color=#7600DF><u>CAN'T</u></color>. MY <color=#7600DF><u>DOCTOR</u></color>
+        <color=#7600DF><u>FORBIDS</u></color> ME FROM EATING <color=#7600DF><u>FATTY
+        FOODS</u></color>
+      _emojiSequence: f000000019010000e5000000d3000000
+      _forcedEmojies: 5100000007000000
+      _maxEmojiSize: 6
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 0}
+    - _message: Creep!
+      _answer: 
+      _emojiSequence: 
+      _forcedEmojies: 
+      _maxEmojiSize: 0
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 0}
+    _isQuiz: 0
+  - _myFaceSprite: {fileID: 0}
+    _myBackgroundColor: {r: 0.84705883, g: 0.7490196, b: 0.9843137, a: 0}
+    _emojiSprite: {fileID: 21300000, guid: 6d924dd486216491b9dcc7970376caaa, type: 3}
+    _backgroundColor: {r: 1, g: 0.8078432, b: 0, a: 0}
+    _senderName: FILMS QUIZ
+    _levelDescription: DESCRIBE THE MOVIE WITH EMOJI
+    _presets:
+    - _message: 
+      _answer: RATATOUILLE
+      _emojiSequence: 820000008100000083000000
+      _forcedEmojies: 
+      _maxEmojiSize: 8
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 21300000, guid: c6d05c14ae06846fb95b631017db3265, type: 3}
+    - _message: 
+      _answer: KUNG FU PANDA
+      _emojiSequence: c100000008010000
+      _forcedEmojies: 
+      _maxEmojiSize: 8
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 21300000, guid: fcc826f9f86ba4af29125ed44f632610, type: 3}
+    - _message: 
+      _answer: UP
+      _emojiSequence: 0f0100000c0100001800000018000000
+      _forcedEmojies: 
+      _maxEmojiSize: 8
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 21300000, guid: b7e9c7b1c0a9e4439b3ac1e360354282, type: 3}
+    _isQuiz: 1
+  - _myFaceSprite: {fileID: 21300000, guid: cfac75fff8da846e496b911723ab6525, type: 3}
+    _myBackgroundColor: {r: 0.84705883, g: 0.7490196, b: 0.9843137, a: 0}
+    _emojiSprite: {fileID: 21300000, guid: 1dd6d0cebd6a243a29ded5dcea71c999, type: 3}
+    _backgroundColor: {r: 0.745105, g: 0.9644671, b: 0.9811321, a: 0}
+    _senderName: SON
+    _levelDescription: AS YOU SAY SO
+    _presets:
+    - _message: Dad, I'm hungry!
+      _answer: <color=#7600DF><u>HI,</u></color> <color=#7600DF><u>HUNGRY</u></color>!
+        I'M <color=#7600DF><u>DAD</u></color>
+      _emojiSequence: bb000000e9000000d7000000
+      _forcedEmojies: 
+      _maxEmojiSize: 6
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 0}
+    - _message: DAD, I'M SERIOUS!
+      _answer: <color=#7600DF><u>NO</u></color>, <color=#7600DF><u>YOU'RE</u></color>
+        <color=#7600DF><u>HUNGRY</u></color>
+      _emojiSequence: 770000008b000000e9000000
+      _forcedEmojies: 06000000
+      _maxEmojiSize: 4
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 0}
+    - _message: Are you joking?
+      _answer: <color=#7600DF><u>NO,</u></color> I'M <color=#7600DF><u>DAD</u></color>
+      _emojiSequence: 77000000d7000000
+      _forcedEmojies: 4b000000c5000000
+      _maxEmojiSize: 4
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 0}
+    _isQuiz: 0
+  - _myFaceSprite: {fileID: 21300000, guid: faa51bc573db049d887d0ac92cc20741, type: 3}
+    _myBackgroundColor: {r: 0.84705883, g: 0.7490196, b: 0.9843137, a: 0}
+    _emojiSprite: {fileID: 21300000, guid: d3ab2509ff1b947178d077c1e4c5a199, type: 3}
+    _backgroundColor: {r: 0.9030816, g: 0.7358491, b: 0.9811321, a: 0}
+    _senderName: MARTIN
+    _levelDescription: LOGICAL TRAP
+    _presets:
+    - _message: Bro, can you swim?
+      _answer: <color=#7600DF><u>NO</u></color>
+      _emojiSequence: 33000000
+      _forcedEmojies: 
+      _maxEmojiSize: 3
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 0}
+    - _message: Dog is better than you because it can swim
+      _answer: <color=#7600DF><u>OK.</u></color> CAN YOU <color=#7600DF><u>SWIM?</u></color>
+      _emojiSequence: bc0000003d000000
+      _forcedEmojies: 
+      _maxEmojiSize: 6
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 0}
+    - _message: Yes
+      _answer: THEN WHAT IS THE <color=#7600DF><u>DIFFERENCE</u></color> BETWEEN
+        <color=#7600DF><u>YOU</u></color> AND <color=#7600DF><u>A DOG?</u></color>
+      _emojiSequence: f200000073000000b1000000
+      _forcedEmojies: 
+      _maxEmojiSize: 7
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 0}
+    _isQuiz: 0
+  - _myFaceSprite: {fileID: 21300000, guid: 8e0ef4c9460ff4e1dba39d6785073438, type: 3}
+    _myBackgroundColor: {r: 0.84705883, g: 0.7490196, b: 0.9843137, a: 0}
+    _emojiSprite: {fileID: 21300000, guid: c7d58a5221c5e42e49bf39dc4d8b79a0, type: 3}
+    _backgroundColor: {r: 0.8066038, g: 0.8396651, b: 1, a: 0}
+    _senderName: ADAM
+    _levelDescription: REAL DESIRES
+    _presets:
+    - _message: Hi! You know, my wife is 18 weeks pregnant!
+      _answer: AND <color=#7600DF><u>MINE</u></color> IS IN HER <color=#7600DF><u>12</u></color>
+        <color=#7600DF><u>WEEK</u></color>
+      _emojiSequence: ea000000ee000000ef000000a1000000
+      _forcedEmojies: 
+      _maxEmojiSize: 7
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 0}
+    - _message: 'What are you hoping for: a boy or a girl?'
+      _answer: I'M <color=#7600DF><u>HOPING</u></color> FOR A <color=#7600DF><u>RADIO-CONTROLLED</u></color>
+        <color=#7600DF><u>HELICOTPER</u></color>
+      _emojiSequence: be000000e4000000e7000000
+      _forcedEmojies: 
+      _maxEmojiSize: 8
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 0}
+    _isQuiz: 0
+  - _myFaceSprite: {fileID: 21300000, guid: 88f2c28ee8d354566b54e8a29b51f24d, type: 3}
+    _myBackgroundColor: {r: 0.84705883, g: 0.7490196, b: 0.9843137, a: 0}
+    _emojiSprite: {fileID: 21300000, guid: ae4f2a33fc6c04bf4927ca6e443da78f, type: 3}
+    _backgroundColor: {r: 1, g: 0.85368603, b: 0.740566, a: 0}
+    _senderName: MR. SMITH
+    _levelDescription: NEW RECIPES
+    _presets:
+    - _message: You know, my wife read somewhere that eating raw food is good for
+        your health.
+      _answer: YEAH, MY <color=#7600DF><u>WIFE</u></color> <color=#7600DF><u>HATES</u></color>
+        <color=#7600DF><u>COOKING</u></color> AS WELL
+      _emojiSequence: d9000000eb000000d4000000
+      _forcedEmojies: 
+      _maxEmojiSize: 6
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 0}
+    _isQuiz: 0
+  - _myFaceSprite: {fileID: 21300000, guid: f8e270843b96b4e62827b8fc63279a05, type: 3}
+    _myBackgroundColor: {r: 0.84705883, g: 0.7490196, b: 0.9843137, a: 0}
+    _emojiSprite: {fileID: 21300000, guid: b2943f63cab2248ff8a02ed6d7b5a6ae, type: 3}
+    _backgroundColor: {r: 0.9011806, g: 1, b: 0.7294118, a: 0}
+    _senderName: JEREMY
+    _levelDescription: SOCIAL HACKING
+    _presets:
+    - _message: 
+      _answer: <color=#7600DF><u>HEY</u></color>, BRO. I <color=#7600DF><u>SAW</u></color>
+        YOUR <color=#7600DF><u>PIN-CODE</u></color> FOR A <color=#7600DF><u>CREDIT
+        CARD</u></color>
+      _emojiSequence: bb000000540000008c0000009a000000
+      _forcedEmojies: 
+      _maxEmojiSize: 8
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 0}
+    - _message: What is it?
+      _answer: <color=#7600DF><u>1212</u></color>
+      _emojiSequence: ee000000ef000000ee000000ef000000
+      _forcedEmojies: 
+      _maxEmojiSize: 8
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 0}
+    - _message: No, it's 1515
+      _answer: <color=#7600DF><u>LOL</u></color>
+      _emojiSequence: 30000000
+      _forcedEmojies: 
+      _maxEmojiSize: 3
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 0}
+    _isQuiz: 0
+  - _myFaceSprite: {fileID: 0}
+    _myBackgroundColor: {r: 0.84705883, g: 0.7490196, b: 0.9843137, a: 0}
+    _emojiSprite: {fileID: 21300000, guid: 6d924dd486216491b9dcc7970376caaa, type: 3}
+    _backgroundColor: {r: 1, g: 0.8078432, b: 0, a: 0}
+    _senderName: FILMS QUIZ
+    _levelDescription: DESCRIBE THE MOVIE WITH EMOJI
+    _presets:
+    - _message: 
+      _answer: JAMES BOND
+      _emojiSequence: f7000000f80000000b010000
+      _forcedEmojies: 
+      _maxEmojiSize: 8
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 21300000, guid: b73bda976651346cd87173d7e96235b6, type: 3}
+    - _message: 
+      _answer: 'AVENGERS: INFINITY WAR'
+      _emojiSequence: 250000000a0100000501000011000000
+      _forcedEmojies: 
+      _maxEmojiSize: 8
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 21300000, guid: b52b9a3d220f24490916cb9c7eef352c, type: 3}
+    - _message: 
+      _answer: TERMINATOR
+      _emojiSequence: 0c01000065000000ff0000000b010000
+      _forcedEmojies: 
+      _maxEmojiSize: 8
+      _messageIcon: {fileID: 0}
+      _quizIcon: {fileID: 21300000, guid: 37f179f6338684d5a86f892e92f907e3, type: 3}
+    _isQuiz: 1
+  _progressPresets:
+  - _progressName: NEWBIE
+    _progressIcon: {fileID: 21300000, guid: 169516eb7354445a78ce39c8fbc108ab, type: 3}
+  - _progressName: NERD
+    _progressIcon: {fileID: 21300000, guid: ce4004d8bdbdb46babafd0a01f266a6e, type: 3}
+  - _progressName: EXPERT
+    _progressIcon: {fileID: 21300000, guid: 5c0ea92e3e39d4dc08207bccfd59daa6, type: 3}
+  - _progressName: MASTER
+    _progressIcon: {fileID: 21300000, guid: e2d0f642d84c84a2696d11304f76f6bd, type: 3}
+  - _progressName: ARTIFICIAL INTELLIGENCE
+    _progressIcon: {fileID: 21300000, guid: b8203fc13bb4b48638f24f71c09848bb, type: 3}
+  - _progressName: SUPER
+    _progressIcon: {fileID: 21300000, guid: 8e0ef4c9460ff4e1dba39d6785073438, type: 3}
+  - _progressName: ALIEN
+    _progressIcon: {fileID: 21300000, guid: d04144f78c4174c6fb1f961fd8d1b1be, type: 3}
+  - _progressName: PRO
+    _progressIcon: {fileID: 21300000, guid: ba036fd01a86445e3bcad1650369721a, type: 3}
+  - _progressName: MEGAMIND
+    _progressIcon: {fileID: 21300000, guid: 6af33f959d07b4037aa3fb8b00eb31a9, type: 3}
+  - _progressName: POTATO
+    _progressIcon: {fileID: 21300000, guid: 7a0e0ae7e28da4e0ea3fc46db8b84cd2, type: 3}
+  _uiFast: {fileID: 2100000, guid: ab331eae74c554ed89d5c88a1291dda6, type: 2}
+  _uiGray: {fileID: 2100000, guid: 73c0efc33d71245b0b97b874349ec698, type: 2}
+  _percentPerCompletedLevel: 15
+  _resultEmojies:
+  - {fileID: 21300000, guid: f0cd6cc3498b44a2f81671edbc64e7b6, type: 3}
+  - {fileID: 21300000, guid: 8ef4ac840cf474a7abca2f30ea5d0603, type: 3}
+  - {fileID: 21300000, guid: 8913774ac4de24d72a015bcab767d84b, type: 3}
+  - {fileID: 21300000, guid: f0ee5d21cffc241ce9aa73d5aa27720c, type: 3}
+  - {fileID: 21300000, guid: 08b14ddec8d594d77a8ff9d71648577a, type: 3}
+  - {fileID: 21300000, guid: 221dbcbbb6fc544f58c56eb87e2ef173, type: 3}
+  _otherMessageDelay: 0.2
+  _myMessageDelay: 0.7
